@@ -18,7 +18,7 @@ mensaje.setEncabezado("{\n 'Encabezado' : '"+encabezado+"',");
 	}
 
 	@Override
-	protected void buildAsunto(String asunto) {
+	public void buildAsunto(String asunto) {
 		mensaje.setAsunto("\n 'Asunto' : '"+asunto+"',");		
 		
 	}

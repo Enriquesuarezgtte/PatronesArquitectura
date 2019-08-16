@@ -9,7 +9,7 @@ public abstract class MensajeBuilder {
 	
 	public abstract void buildEncabezado(String encabezado);
 	public abstract void buildCuerpo(String cuerpo);
-	protected abstract void buildAsunto(String asunto);
+	public abstract void buildAsunto(String asunto);
 	
 
 }

@@ -21,7 +21,7 @@ public class XMLMessage extends MensajeBuilder{
 	}
 
 	@Override
-	protected void buildAsunto(String asunto) {
+	public void buildAsunto(String asunto) {
 		mensaje.setAsunto("\n <subject>"+asunto+ "</subject>");
 	}
 

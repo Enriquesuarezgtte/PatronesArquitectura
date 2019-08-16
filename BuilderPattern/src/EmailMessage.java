@@ -18,7 +18,7 @@ public class EmailMessage extends MensajeBuilder{
 	}
 
 	@Override
-	protected void buildAsunto(String asunto) {
+	public void buildAsunto(String asunto) {
 		mensaje.setAsunto("\nSubject: "+ asunto);
 	}
 
