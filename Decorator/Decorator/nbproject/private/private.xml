@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/components/BMW.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/externo/VidriosElectricos.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/RadioBasico.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/AireAcondicionado.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/components/ChevroletSprint.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decoratorpattern/AutomovilDecorator.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/components/Automovil.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/externo/Polarizado.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/Radios.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/RadioGPS.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/components/Toyota.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/DecoradoresInternos.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decoratorpattern/VentaAuto.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/externo/LlantasDeLujo.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/components/ChevroletSail.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/externo/DecoradoresExternos.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/externo/Blindaje.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/RadioDVD.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/decorator/interno/Mp4Player.java</file>
+            <file>file:/Users/ingenieria/Downloads/Decorator/src/cliente/client.java</file>
+        </group>
+    </open-files>
+</project-private>
