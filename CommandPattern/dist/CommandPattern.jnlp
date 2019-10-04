@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CommandPattern.jnlp">
+  <information>
+    <title>CommandPattern</title>
+    <vendor>enrique</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CommandPattern.jar" size="12881" download="eager" />
+  </resources>
+  <application-desc main-class="commandpattern.EditorFrame"  name="CommandPattern" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
