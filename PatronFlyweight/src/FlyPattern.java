@@ -6,6 +6,7 @@
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -13,24 +14,22 @@ import java.util.List;
  * @author Enrique
  */
 public class FlyPattern{ 
-    public List<IFlyWeight> lista = new ArrayList<>();
-    boolean done = false;
+        public List<String> lista = new ArrayList<>();
+        public HashMap<String, String> hashMap = new HashMap<>();
+        
     public void add(String clave, String nombre){
-        lista.stream().filter((f) -> ( f.ObtenerNombre().equalsIgnoreCase(nombre))).forEachOrdered((_item) -> {
-            done = true;
-        });
-        if(!done){
-            IFlyWeight listas = new Datos(clave, nombre);
-            lista.add(listas);
-        }else{
-        System.out.println("Try Again");
+        if(hashMap.containsKey(clave)){
+                    System.out.println("Try Again");
 
+        }else{
+            hashMap.put(clave, nombre);
+            lista.add(clave);
         }
     }
     
     public void show(String tipo){
-        lista.stream().filter((f) -> ( f.obtenerValor().equals(tipo))).forEachOrdered((f) -> {
-            f.mostrar();
-        });
+        for(String s: lista){
+            System.out.println(s);
+        }
     }
 }
