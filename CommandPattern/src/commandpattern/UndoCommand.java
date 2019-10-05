@@ -13,7 +13,6 @@ public class UndoCommand implements Command{
 
     
     private ITexto iTexto;
-    private static int pos;
 
     public UndoCommand(ITexto iTexto) {
         this.iTexto = iTexto;

@@ -16,16 +16,19 @@ public class EditorFrame extends javax.swing.JFrame {
     /**
      * Creates new form EditorFrame
      */
-    private static Texto text=new Texto();
-    private static ArrayList<Command> listaComandos = new ArrayList<Command>();
-    private static Command comando = new RedoCommand(text);
-    private static Command comando2 = new UndoCommand(text);
+	private static Texto text=new Texto();
+    private static ArrayList<Command> listaComandos;
+    private static Command comando ;
+    private static Command comando2;
     private static Caretaker caretaker;
     private static String opcion;
     private static int pos;
        
     public EditorFrame() {
         initComponents();
+        listaComandos = new ArrayList<Command>();
+        comando = new RedoCommand(text);
+        comando2 = new UndoCommand(text);
        listaComandos.add(comando);      
        listaComandos.add(comando2); 
        opcion="";
